@@ -1,4 +1,4 @@
-# Check if Docker is installed
+# Check if Docker is installed 
 if (-not (Get-Command docker -ErrorAction SilentlyContinue)) {
     Write-Output "Docker is not installed. Please install Docker Desktop from https://www.docker.com/products/docker-desktop"
     Exit
