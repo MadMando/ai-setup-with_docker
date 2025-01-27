@@ -1,5 +1,3 @@
-Here’s the updated README.md with a section for users who prefer not to follow the script and instead want to run the containers manually using `docker pull` and `docker run`.
-
 ---
 
 # Docker AI Setup
