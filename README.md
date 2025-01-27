@@ -29,7 +29,7 @@ Run AI models using  **Ollama** and **Open-WebUI** locally using Docker! This re
 ### **Option 1: Use the Script**
 For an automated setup, download the following files from this repository:
 - [install_run.ps1](./install_run.ps1)  
-- [docker-compose.yml](./docker-compose.yml)
+
 
 Follow these steps:
 1. Open PowerShell as **Administrator**.
