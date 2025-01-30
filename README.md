@@ -151,10 +151,4 @@ This project is licensed under the MIT License. See the [LICENSE](./LICENSE) fil
 
 ---
 
-## Contributions
-
-Contributions are welcome! Feel free to fork this repository, submit pull requests, or open issues.
-
----
-
 this was created with the assistance of the above instructions, !!!!  ENJOY !!!!
