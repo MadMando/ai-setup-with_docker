@@ -36,7 +36,8 @@ Run AI models using Docker! It's much easier than you think!!  **Ollama** and **
 
 ### **Option 1: Use the Script**
 For an automated setup, download the following files from this repository:
-- [docker_ai_setup.ps1](./docker_ai_setup.ps1)  
+- [docker_ai_setup.ps1](./docker_ai_setup.ps1)
+- click the download button, looks like an arrow in a bucket near the top of the code.
 
 
 Follow these steps:
