@@ -10,6 +10,7 @@ Run AI models using  it's much easier than you think!!  **Ollama** and **Open-We
 
 ✔️ **No Cloud Dependency**: Your data stays secure on your machine.  
 ✔️ **Full Control**: Customize configurations to suit your needs.  
+✔️ **Lots of Choices**: Choose from many different models.   
 
 ---
 
