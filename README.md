@@ -96,6 +96,7 @@ After the containers are running, follow these steps to download models in Open-
 6. Once downloaded, start chatting with your AI! 🎉  
 
 ⚠️ **Pro Tip**: Stick with smaller or distilled models unless you have high-end hardware.
+the most popular one now is ``` deepseek-r1:1.5b ```
 
 ---
 
