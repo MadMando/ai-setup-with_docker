@@ -48,7 +48,7 @@ Follow these steps:
    ```
 3. Run the script:
    ```powershell
-   ./install_run.ps1
+   ./docker_ai_setup.ps1
    ```
 
 The script will:
