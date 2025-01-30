@@ -18,7 +18,9 @@ Run AI models using Docker! It's much easier than you think!!  **Ollama** and **
 ## Requirements
 
 1. **Docker Desktop**  
-   - Download and install it from [Docker Desktop](https://www.docker.com/products/docker-desktop).  
+   - Download and install it from [Docker Desktop](https://www.docker.com/products/docker-desktop).
+   - Restart when asked by docker installation.
+   - START DOCKER!  Don't forget, you don't have to sign in or register; click on skip on the upper right. 
    - Ensure it is running before proceeding.
 
 2. **Windows Only**  
@@ -34,7 +36,7 @@ Run AI models using Docker! It's much easier than you think!!  **Ollama** and **
 
 ### **Option 1: Use the Script**
 For an automated setup, download the following files from this repository:
-- [install_run.ps1](./install_run.ps1)  
+- [install_run.ps1](./docker_ai_setup.ps1)  
 
 
 Follow these steps:
