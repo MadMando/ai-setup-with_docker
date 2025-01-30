@@ -2,7 +2,7 @@
 
 # Docker AI Setup
 
-Run AI models using  **Ollama** and **Open-WebUI** locally using Docker! This repository provides a simple PowerShell script and a pre-configured Docker Compose file to make setup easy, even for non-technical users. Prefer to do it manually? We’ve got you covered for that too!
+Run AI models using  **Ollama** and **Open-WebUI** locally using Docker! This repository provides a simple PowerShell script and a pre-configured Docker Compose file to make setup easy, even for non-technical users. Dont trust random scripts on the interweb, then do it manually, we’ve got you covered for that too!
 
 ---
 
