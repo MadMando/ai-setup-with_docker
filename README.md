@@ -29,15 +29,20 @@ Run AI models using Docker! It's much easier than you think!!  **Ollama** and **
    - Right click and open as administrator
   
    - WARNING! This is for personal computers only. I would not recommend installing it on a work or school computer!
-   - PERMISSIONS- to continue you would need to allow the script to run, to do so you would need to give unrestricted access to run script to current user.
-   -    this is where I would recommend to use the manual installation.  once don,e you can revoke unrestricted access.
-   -    to give permission run the following command in the powershell  ``` Set-ExecutionPolicy Unrestricted -Scope CurrentUser ```
-   -    Hit R for run once.  
+
 ---
 
 ## Quick Start
+Security Note:
+Avoid using automated scripts from untrusted sources (I can be trusted, but you don't know m,e so it's up to you!) as they pose security risks. For best practices, review the script contents before running it.
 
-### **Option 1: Use the Script**
+### **Option 1: Use the Script**  dont do this its a bad idea!  too many security issues!  Just go to option 2!
+
+   - PERMISSIONS- to continue you would need to allow the script to run, and you would need to give unrestricted access to run the script to the current user.
+   -    this is where I would recommend using the manual installation.  Once you do, you can revoke unrestricted access.
+   -    to give permission, run the following command in the PowerShell  ``` Set-ExecutionPolicy Unrestricted -Scope CurrentUser ```
+   -    Hit R for run once.  
+
 For an automated setup, download the following files from this repository:
 - [docker_ai_setup.ps1](./docker_ai_setup.ps1)
 - click the download button, looks like an arrow in a bucket near the top of the code.
@@ -81,7 +86,7 @@ Start the containers with the proper port mappings and configurations:
    docker run -d -p 11434:11434 --name ollama --restart always ollama/ollama
    ```
 
-2. **Run Open-WebUI**:
+2. **Run Open-WebUI**:give it a couple minutes to loadmand
    ```powershell
    docker run -d -p 3000:8080 --add-host=host.docker.internal:host-gateway -v open-webui:/app/backend/data --name open-webui --restart always ghcr.io/open-webui/open-webui:main
    ```
@@ -100,15 +105,21 @@ You should see both `ollama` and `open-webui` listed.
 
 After the containers are running, follow these steps to download models in Open-WebUI:
 
-1. Open your browser and go to [http://localhost:3000](http://localhost:3000).  
-2. Navigate to **Admin → Models** in the top menu.  
-3. Click the **Download button** (it looks like an arrow in a bucket).  
-4. Visit [Ollama](https://ollama.com) to browse available models.  
-5. Copy the model name, paste it into the Open-WebUI dialog, and hit **Download**.  
-6. Once downloaded, start chatting with your AI! 🎉  
+1. Open your browser and go to [http://localhost:3000](http://localhost:3000).
+2. Sign up; you can use any name and email; this will create the admin account. 
+3. Navigate to **Admin → Models** in the top menu.  
+4. Click the **Download button** (it looks like an arrow in a bucket).  
+5. Visit [Ollama](https://ollama.com) to browse available models.  
+6. Copy the model name, paste it into the Open-WebUI dialog, and hit **Download**.  
+7. Once downloaded, start chatting with your AI! 🎉  
 
 ⚠️ **Pro Tip**: Stick with smaller or distilled models unless you have high-end hardware.
 the most popular one now is ``` deepseek-r1:1.5b ```
+
+
+CONGRATS! You should have your own personal GenAI running locally, be patient if you have old or not as-powerful hardware, or if you have nice hardware, then choose a larger model stick to 
+models that are typically 4gb in size, they tend to work well.
+
 
 ---
 
@@ -155,6 +166,9 @@ Absolutely! You can modify port mappings, volume mounts, and other parameters as
 Simply follow the steps in **Download Models for Open-WebUI**.
 
 ---
+
+## Garuntee
+there is none, use at your own risk, stick to models from known sources like ollama and huggingface.  this is for entertainmaint use only.  
 
 ## License
 
