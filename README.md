@@ -79,6 +79,8 @@ Run the following commands in PowerShell or any terminal with Docker installed:
 
 ```powershell
 docker pull ollama/ollama
+```
+```
 docker pull ghcr.io/open-webui/open-webui:main
 ```
 
@@ -114,7 +116,7 @@ After the containers are running, follow these steps to download models in Open-
 3. Navigate to **Admin → Models** in the top menu.  
 4. Click the **Download button** (it looks like an arrow in a bucket).  
 5. Visit [Ollama](https://ollama.com) to browse available models.  
-6. Copy the model name, paste it into the Open-WebUI dialog, and hit **Download**.  
+6. Copy the model name, paste it into the Open-WebUI dialog, and hit **Download**.  example ``` deepseek-r1:1.5b ```
 7. Once downloaded, start chatting with your AI! 🎉  
 
 ⚠️ **Pro Tip**: Stick with smaller or distilled models unless you have high-end hardware.
