@@ -22,7 +22,7 @@ Run AI models using Docker! It's much easier than you think!!  **Ollama** and **
    - Ensure it is running before proceeding.
 
 2. **Windows Only**  
-   - PowerShell must be installed (default in Windows 10/11).
+   - PowerShell or terminal window.
    - Search for PowerShell in the start menu search
    - Right click and open as administrator
   
