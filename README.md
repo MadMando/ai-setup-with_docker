@@ -29,7 +29,10 @@ Run AI models using Docker! It's much easier than you think!!  **Ollama** and **
    - Right click and open as administrator
   
    - WARNING! This is for personal computers only. I would not recommend installing it on a work or school computer!
-
+   - PERMISSIONS- to continue you would need to allow the script to run, to do so you would need to give unrestricted access to run script to current user.
+   -    this is where I would recommend to use the manual installation.  once don,e you can revoke unrestricted access.
+   -    to give permission run the following command in the powershell  ``` Set-ExecutionPolicy Unrestricted -Scope CurrentUser ```
+   -    Hit R for run once.  
 ---
 
 ## Quick Start
