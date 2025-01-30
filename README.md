@@ -33,15 +33,15 @@ Run AI models using Docker! It's much easier than you think!!  **Ollama** and **
 ---
 
 ## Quick Start
-Security Note:
-Avoid using automated scripts from untrusted sources (I can be trusted, but you don't know m,e so it's up to you!) as they pose security risks. For best practices, review the script contents before running it.
+⚠️Security Note:⚠️
+⚠️Avoid using automated scripts from untrusted sources (I can be trusted, but you don't know m,e so it's up to you!) as they pose security risks. For best practices, review the script contents before running it.
 
 ### **Option 1: Use the Script**  dont do this its a bad idea!  too many security issues!  Just go to option 2!
 
-   - PERMISSIONS- to continue you would need to allow the script to run, and you would need to give unrestricted access to run the script to the current user.
-   -    this is where I would recommend using the manual installation.  Once you do, you can revoke unrestricted access.
-   -    to give permission, run the following command in the PowerShell  ``` Set-ExecutionPolicy Unrestricted -Scope CurrentUser ```
-   -    Hit R for run once.  
+  ⚠️ - PERMISSIONS- to continue you would need to allow the script to run, and you would need to give unrestricted access to run the script to the current user.
+  ⚠️ -    this is where I would recommend using the manual installation.  Once you do, you can revoke unrestricted access.
+  ⚠️-    to give permission, run the following command in the PowerShell  ``` Set-ExecutionPolicy Unrestricted -Scope CurrentUser ```
+  ⚠️-    Hit R for run once.  
 
 For an automated setup, download the following files from this repository:
 - [docker_ai_setup.ps1](./docker_ai_setup.ps1)
