@@ -171,8 +171,8 @@ Simply follow the steps in **Download Models for Open-WebUI**.
 
 ---
 
-## Garuntee
-there is none, use at your own risk, stick to models from known sources like ollama and huggingface.  this is for entertainmaint use only.  
+## Guarantee
+there is none, use at your own risk, and stick to models from known sources like Ollama and huggingface.  this is for entertainment use only.  
 
 ## License
 
@@ -180,4 +180,4 @@ This project is licensed under the MIT License. See the [LICENSE](./LICENSE) fil
 
 ---
 
-this was created with the assistance of the above instructions, !!!!  ENJOY !!!!
+This was created with the assistance of the above instructions, !!!!  ENJOY !!!!
